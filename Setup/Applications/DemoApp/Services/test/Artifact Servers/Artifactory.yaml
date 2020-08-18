@@ -1,0 +1,8 @@
+harnessApiVersion: '1.0'
+type: ARTIFACTORY
+artifactPattern: '*.jar'
+metadataOnly: true
+repositoryName: generic-local
+repositoryType: any
+serverName: Artifactory
+useDockerFormat: false
