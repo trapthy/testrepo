@@ -1,3 +1,11 @@
 harnessApiVersion: '1.0'
 type: PIPELINE
 description: DemoPipeline
+pipelineStages:
+- type: ENV_STATE
+  name: deliver
+  parallel: false
+  skipCondition:
+    type: DO_NOT_SKIP
+  stageName: STAGE 1
+  workflowName: DemoWF
